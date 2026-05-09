@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.R.U.N.O. | Enterprise AI Systems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --p: #3b82f6; --ph: #2563eb; --txt: #1e293b; --lt: #475569; --dark: #0f172a; --bg: #f8fafc; }
+        html { scroll-behavior: smooth; }
+        body { margin: 0; font-family: 'Inter', sans-serif; color: var(--txt); background: var(--bg); line-height: 1.8; overflow-x: hidden; }
+        
+        /* NAVIGATION */
+        nav { padding: 15px 8%; background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); position: sticky; top: 0; z-index: 100; border-bottom: 1px solid #e2e8f0; display: flex; justify-content: space-between; align-items: center; }
+        .logo-text { font-weight: 800; font-size: 1.4rem; color: var(--dark); letter-spacing: -1px; }
+        .logo-text span { font-size: 0.7rem; color: var(--lt); letter-spacing: 1.5px; font-weight: 800; display: block; margin-top: -5px; }
+        .nav-links a { color: var(--txt); text-decoration: none; margin-left: 25px; font-weight: 600; font-size: 0.9rem; transition: 0.3s; }
+        .nav-links a:hover { color: var(--p); }
+
+        /* HERO */
+        header { padding: 80px 8% 40px; text-align: center; max-width: 1200px; margin: 0 auto; }
+        h1 { font-size: 4.5rem; font-weight: 800; margin: 10px 0; background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: -3px; }
+        .main-logo { max-width: 320px; margin: 30px auto; filter: drop-shadow(0 20px 40px rgba(0,0,0,0.12)); animation: float 6s infinite ease-in-out; border-radius: 24px; }
+        @keyframes float { 0%,100% {transform: translateY(0);} 50% {transform: translateY(-15px);} }
+
+        /* TERMINAL */
+        #app-section { padding: 40px 8% 100px; }
+        .terminal { max-width: 1000px; margin: 0 auto; background: #fff; border-radius: 20px; box-shadow: 0 40px 100px rgba(0,0,0,0.1); overflow: hidden; display: flex; flex-direction: column; height: 680px; border: 1px solid #e2e8f0; }
+        .t-head { background: var(--dark); padding: 14px 25px; color: #fff; font-family: 'Fira Code', monospace; font-size: 0.8rem; display: flex; justify-content: space-between; align-items: center; }
+        .voice-btn { background: #1e293b; color: #fff; border: 1px solid #334155; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-family: 'Fira Code', monospace; font-size: 0.75rem; transition: 0.3s; }
+        .voice-btn.active { background: #10b981; border-color: #059669; }
+        
+        #history { flex-grow: 1; padding: 30px; overflow-y: auto; background: #fafbfc; display: flex; flex-direction: column; gap: 15px; font-family: 'Fira Code', monospace; font-size: 0.9rem; }
+        .msg { padding: 15px 22px; border-radius: 14px; max-width: 80%; line-height: 1.5; }
+        .ai { background: white; border: 1px solid #e2e8f0; align-self: flex-start; color: #334155; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .user { background: var(--p); color: white; align-self: flex-end; font-family: 'Inter', sans-serif; }
+        
+        .instr-panel { background: #eff6ff; border-left: 5px solid var(--p); color: #1e3a8a; padding: 25px; border-radius: 4px 14px 14px 4px; margin-bottom: 15px; font-family: 'Inter', sans-serif; }
+        .code-pill { background: #dbeafe; color: var(--ph); padding: 2px 8px; border-radius:
