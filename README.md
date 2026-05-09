@@ -59,4 +59,4 @@ B.R.U.N.O. is built on an ultra-lightweight JavaScript kernel. By prioritizing "
 
 ---
 
-**Developed by [Your Name/Handle]** *© 2026 B.R.U.N.O. Systems. All Rights Reserved.*
+**Developed by B.R.U.N.O Systeyms** *© 2026 B.R.U.N.O. Systems. All Rights Reserved.*
